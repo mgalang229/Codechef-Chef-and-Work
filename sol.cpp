@@ -38,9 +38,8 @@ int main() {
 		while(id<n) {
 			trips++;
 			int sum=0;
-			while(id<n&&w[id]+sum<=k) {
+			while(id<n&&w[id]+sum<=k)
 				sum+=w[id++];
-			}
 		}
 		cout << trips << "\n";
 	}
